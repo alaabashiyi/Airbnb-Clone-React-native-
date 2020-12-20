@@ -10,6 +10,7 @@ import React from 'react';
 import {SafeAreaView, ScrollView, View, Text, StatusBar} from 'react-native';
 import HomeScreen from './src/screens/Home';
 import SearchResultsScreen from './src/screens/SearchResults';
+import DestinationSearchScreen from './src/screens/DestinationSearch';
 
 import Post from './src/components/Post';
 import Entypo from 'react-native-vector-icons/Entypo';
@@ -25,7 +26,8 @@ const App: () => React$Node = () => {
       <SafeAreaView>
         {/* <HomeScreen /> */}
         {/* <Post post={post1} /> */}
-        <SearchResultsScreen />
+        {/* <SearchResultsScreen /> */}
+        <DestinationSearchScreen />
       </SafeAreaView>
     </>
   );
