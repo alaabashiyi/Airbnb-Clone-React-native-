@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {View, Text, TextInput, FlatList} from 'react-native';
+import {View, Text, TextInput, FlatList, Pressable} from 'react-native';
 import styles from './styles';
 
 import searchResults from '../../../assets/data/search';
