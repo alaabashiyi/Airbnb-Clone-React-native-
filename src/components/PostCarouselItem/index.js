@@ -11,7 +11,7 @@ const PostCarouselItem = (props) => {
       style={[
         styles.container,
         {
-          width: width - 60,
+          width: width - 30,
         },
       ]}>
       <View style={styles.innerContainer}>
