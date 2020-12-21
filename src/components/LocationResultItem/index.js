@@ -8,12 +8,12 @@ const LocationResultItem = (props) => {
   const navigation = useNavigation();
   const {result} = props;
   return (
-    <Pressable style={styles.row} onPress={() => navigation.navigate('Guests')}>
+    <View style={styles.row}>
       <View style={styles.iconContainer}>
         <Entypo name="location-pin" size={30} color={'#000'} />
       </View>
       <Text style={styles.locationText}>{result.description}</Text>
-    </Pressable>
+    </View>
   );
 };
 

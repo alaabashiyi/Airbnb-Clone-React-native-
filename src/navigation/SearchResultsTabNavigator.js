@@ -15,7 +15,7 @@ const SearchResultsTabNavigator = (props) => {
         },
       }}>
       <Tab.Screen name={'list'} component={SearchResults} />
-      {/* <Tab.Screen name={'map'} component={SearchResultsMap} /> */}
+      <Tab.Screen name={'map'} component={SearchResults} />
     </Tab.Navigator>
   );
 };
