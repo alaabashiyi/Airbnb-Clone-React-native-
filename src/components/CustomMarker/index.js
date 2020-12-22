@@ -18,7 +18,7 @@ const CustomMarker = (props) => {
           }}>
           <Text
             style={{fontWeight: 'bold', color: isSelected ? '#fff' : '#000'}}>
-            {price}
+            ${price}
           </Text>
         </View>
       </Marker>
