@@ -10,6 +10,7 @@ import EvilIcons from 'react-native-vector-icons/EvilIcons';
 
 import HomeScreen from '../screens/Home';
 import SearchResultsMap from '../screens/SearchResultsMap';
+import PostScreen from '../screens/PostScreen';
 
 import ExploreNavigator from './ExploreNavigator';
 
@@ -20,8 +21,8 @@ const Router = () => {
     <Tab.Navigator>
       <Tab.Screen
         name={'Explore'}
-        // component={ExploreNavigator}
-        component={SearchResultsMap}
+        component={ExploreNavigator}
+        // component={PostScreen}
         options={{
           tabBarIcon: ({color}) => (
             <Fontisto name={'search'} size={25} color={color} />
